@@ -4,7 +4,7 @@ This file is **not parsed as a configuration schema**. It only shows optional ch
 
 ## Worker backend
 
-Default technical worker: external OpenCode using `opencode-go/deepseek-v4-flash`.
+Default technical worker: external OpenCode using `deepseek/deepseek-flash` (DeepSeek V4.1 Flash, direct DeepSeek provider).
 
 If OpenCode state must be relocated, keep it outside every project/worktree:
 

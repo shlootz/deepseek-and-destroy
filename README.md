@@ -2,7 +2,7 @@
 
 > Give a premium coding agent the plan. Cheap specialist workers do the repository-scale work; the parent keeps authority and judgment.
 
-DeepSeek and Destroy (DSD) is a long-horizon plan-execution skill for Codex, Claude Code, OpenCode, Kilo Code, and comparable coding harnesses. The default worker backend is external OpenCode using `opencode-go/deepseek-v4-flash`.
+DeepSeek and Destroy (DSD) is a long-horizon plan-execution skill for Codex, Claude Code, OpenCode, Kilo Code, and comparable coding harnesses. The default worker backend is external OpenCode using `deepseek/deepseek-flash` (DeepSeek V4.1 Flash, direct DeepSeek provider).
 
 ## Core model
 

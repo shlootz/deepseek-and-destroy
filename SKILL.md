@@ -5,7 +5,7 @@ license: MIT
 compatibility: codex, claude-code, opencode, kilo, and comparable coding harnesses
 metadata:
   default-worker-harness: opencode-cli
-  default-worker-model: opencode-go/deepseek-v4-flash
+  default-worker-model: deepseek/deepseek-flash
   workspace-root: DeepSeekAndDestroy
 ---
 

@@ -50,7 +50,7 @@ def main() -> int:
     ap.add_argument("--revision", type=int, default=1)
     ap.add_argument("--project-instruction", action="append", default=[])
     ap.add_argument("--rule", action="append", default=[], help="stable run-specific execution rule")
-    ap.add_argument("--model", default="opencode-go/deepseek-v4-flash")
+    ap.add_argument("--model", default="deepseek/deepseek-flash")
     ap.add_argument("--worker-harness", default="opencode-cli")
     ap.add_argument("--reuse-existing", action="store_true", help="verify and reuse this exact immutable rules revision")
     args = ap.parse_args()

@@ -2,7 +2,7 @@
 
 Cold reference for default **worker transport**. Parent may use any supported harness; external workers use OpenCode unless configured otherwise.
 
-Defaults: model `opencode-go/deepseek-v4-flash`; fresh session on role change; one external disposable DB for the active phase, reused for same-role continuation.
+Defaults: model `deepseek/deepseek-flash`; fresh session on role change; one external disposable DB for the active phase, reused for same-role continuation.
 
 ## External DB invariant
 

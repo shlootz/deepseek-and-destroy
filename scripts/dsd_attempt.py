@@ -111,7 +111,7 @@ def opencode_runtime(state: dict[str, Any], db_override: str | None, model_overr
     harness = str(runtime.get("harness") or "opencode-cli")
     if harness not in {"opencode-cli", "opencode"}:
         raise ValueError(f"dsd_attempt launch supports external OpenCode only; configured worker harness is {harness!r}")
-    model = model_override or runtime.get("model") or "opencode-go/deepseek-v4-flash"
+    model = model_override or runtime.get("model") or "deepseek/deepseek-flash"
     db_raw = db_override or (runtime.get("opencode") or {}).get("run_db") or os.environ.get("DSD_OC_RUN_DB")
     if not isinstance(db_raw, str) or not db_raw.strip():
         raise ValueError("OpenCode run DB is not configured (state.worker_runtime.opencode.run_db, --db, or DSD_OC_RUN_DB)")
